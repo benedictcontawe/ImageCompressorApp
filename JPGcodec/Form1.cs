@@ -34,17 +34,17 @@ namespace JPGcodec
                 EncoderParameter imageQualitysParameter = new EncoderParameter(System.Drawing.Imaging.Encoder.Quality, imageQuality);
 
                 //List all avaible codecs (system wide)
-                ImageCodecInfo[] alleCodecs = ImageCodecInfo.GetImageEncoders();
+                ImageCodecInfo[] allCodecs = ImageCodecInfo.GetImageEncoders();
 
                 EncoderParameters codecParameter = new EncoderParameters(1);
                 codecParameter.Param[0] = imageQualitysParameter;
 
                 //Find and choose JPEG codec
-                for (int i = 0; i < alleCodecs.Length; i++)
+                for (int i = 0; i < allCodecs.Length; i++)
                 {
-                    if (alleCodecs[i].MimeType == "image/jpeg")
+                    if (allCodecs[i].MimeType == "image/jpeg")
                     {
-                        jpegCodec = alleCodecs[i];
+                        jpegCodec = allCodecs[i];
                         break;
                     }
                 }
