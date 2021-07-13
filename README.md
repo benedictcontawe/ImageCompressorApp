@@ -11,3 +11,7 @@
 - [Architecture for WinForms applications?](https://stackoverflow.com/questions/1324603/architecture-for-winforms-applications/1325657)
 
 - [What is the equivalent of Java's final in C#?](https://stackoverflow.com/questions/1327544/what-is-the-equivalent-of-javas-final-in-c)
+
+- [Get enum name from a value in C#](https://www.techiedelight.com/get-enum-name-from-value-csharp/)
+
+- [Get integer value from enum member name in C#](https://www.techiedelight.com/get-integer-value-from-enum-csharp/)
