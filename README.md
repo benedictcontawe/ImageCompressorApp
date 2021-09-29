@@ -17,3 +17,5 @@
 - [Get integer value from enum member name in C#](https://www.techiedelight.com/get-integer-value-from-enum-csharp/)
 
 - [JSON formatter in C#?](https://stackoverflow.com/questions/4580397/json-formatter-in-c#:~:text=public%20string%20PrettyJson(string%20unPrettyJson)%0A%20%7B%0A%20%20%20%20%20var%20options%20%3D%20new%20JsonSerializerOptions()%7B%0A%20%20%20%20%20%20%20%20%20WriteIndented%20%3D%20true%0A%20%20%20%20%20%7D%3B%0A%0A%20%20%20%20%20var%20jsonElement%20%3D%20JsonSerializer.Deserialize%3CJsonElement%3E(unPrettyJson)%3B%0A%0A%20%20%20%20%20return%20JsonSerializer.Serialize(jsonElement%2C%20options)%3B%0A%20%7D)
+
+- [Visual Studio how to change path to settings file](https://stackoverflow.com/questions/39203492/visual-studio-how-to-change-path-to-settings-file)
